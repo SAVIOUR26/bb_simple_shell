@@ -28,8 +28,8 @@ result);
 /**
 * print_error - this prints the error message
 * @info: parameter and return info structure
-* @estr: the string contains specified error type
-* Return: if no numbers in string 0 , else converted number 
+* @estr: the string contains a specified error type
+* Return: if no numbers in string 0, else converted number 
 */
 void print_error(info_t *info, char *estr)
 {
@@ -42,9 +42,9 @@ _eputs(": ");
 _eputs(estr);
 }
 /**
-* print_d - this func prints decimal (integer) number (base 10)
+* print_d - this func prints decimal (integer) numbers (base 10)
 * @input: input
-* @fd: filedescriptor 2 write 2
+* @fd: file descriptor 2 write 2
 **
 Return: the number of chars printed
 */
