@@ -4,7 +4,7 @@
  * get_environ - this returns the string array copy of our environment
  * @info: the structure contains potential arguments. Used 2 maintain
  * constant funct prototype.
- * Return: this will always return 0
+ * Return: 0
  */
 char **get_environ(info_t *info)
 {
@@ -18,7 +18,7 @@ char **get_environ(info_t *info)
 }
 
 /**
- * _unsetenv - this remove the environment variable
+ * _unsetenv - this removes the environment variable
  * @info: the structure contains potential arguments. Used 2 maintain
  * constant func prototype.
  *  Return: on delete 1, else 0
@@ -54,7 +54,7 @@ int _unsetenv(info_t *info, char *var)
  * else modify the existing one
  * @info: the structure contains potential arguments. Used 2 maintain
  *        constant func prototype.
- * @var: string envirroment variable property
+ * @var: string environment variable property
  * @value: string environment variable value
  *  Return: will always return 0
  */
