@@ -33,7 +33,7 @@ s);
 **_strncat - this concatenates 2 strings
 *@dest: first string
 *@src: second string
-*@n: amount of bytes 2 be maximally used
+*@n: the amount of bytes 2 be maximally used
 *Return: concatenated string
 */
 char *_strncat(char *dest, char *src, int n)
