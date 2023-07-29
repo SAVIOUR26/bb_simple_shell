@@ -2,7 +2,7 @@
 /**
 * _erratoi - this converts the string 2 integer
 * @s: string 2 be converted
-* Return: if no numbers in string 0, else converted no.
+* Return: 0 if no numbers in string, else converted no.
 * -1 on error
 */
 int _erratoi(char *s)
