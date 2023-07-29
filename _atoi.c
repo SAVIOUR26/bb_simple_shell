@@ -3,17 +3,17 @@
 * interactive - this returns true if the shell is in interactive mode
 * @info: the struct address
 **
-Return:if interactive mode 1 , else 0
+Return: if interactive mode 1, else 0
 */
 int interactive(info_t *info)
 {
 return (isatty(STDIN_FILENO) && info->readfd <= 2);
 }
 /**
-* is_delim - this checks whether a character is a delimeter
+* is_delim - this checks whether a character is a delimiter
 * @c: char 2 check
-* @delim: this is the delimeter string
-* Return: if true 1 , else 0 
+* @delim: this is the delimiter string
+* Return: if true 1, else 0 
 */
 int is_delim(char c, char *delim)
 {
@@ -25,7 +25,7 @@ return (0);
 /**
 * _isalpha - this checks 4 alphabetic char
 * @c: char 2 input
-* Return: if char is alphabetic 1 , else 0 
+* Return: if char is alphabetic 1, else 0 
 */
 int _isalpha(int c)
 {
@@ -37,7 +37,7 @@ return (0);
 /**
 * _atoi - this converts the string 2 integer
 * @s: string 2 be converted
-* Return: if no numbers in string 0 , else converted number 
+* Return: if no numbers in string 0, else converted number 
 */
 int _atoi(char *s)
 {
