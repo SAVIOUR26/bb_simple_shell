@@ -1,10 +1,10 @@
 #include "shell.h"
 
 /**
- * list_len - this determines length of linked list
+ * list_len - this determines the length of the linked list
  * @h: the pointer 2 the first node
  *
- * Return: the size of list
+ * Return: the size of the list
  */
 size_t list_len(const list_t *h)
 {
@@ -19,8 +19,8 @@ size_t list_len(const list_t *h)
 }
 
 /**
- * list_to_strings - this returns array of the strings of list->str
- * @head: the pointer to first node
+ * list_to_strings - this returns an array of the strings of list->str
+ * @head: the pointer to the first node
  *
  * Return: array of the strings
  */
@@ -57,7 +57,7 @@ char **list_to_strings(list_t *head)
 
 /**
  * print_list - this prints all the elements of a list_t linked list
- * @h: the pointer to first node
+ * @h: the pointer to the first node
  *
  * Return: the size of list
  */
@@ -79,7 +79,7 @@ size_t print_list(const list_t *h)
 }
 
 /**
- * node_starts_with - this returns node whose string starts with prefix
+ * node_starts_with - this returns a node whose string starts with the prefix
  * @node: the pointer to list head
  * @prefix: the string to match
  * @c: next char after prefix to match
@@ -101,7 +101,7 @@ list_t *node_starts_with(list_t *node, char *prefix, char c)
 }
 
 /**
- * get_node_index - this gets index of the node
+ * get_node_index - this gets the index of the node
  * @head: the pointer to the list head
  * @node: the pointer to the node
  *
