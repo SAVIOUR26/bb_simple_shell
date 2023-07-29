@@ -2,7 +2,7 @@
 #include "shell.h"
 
 /**
- * is_cmd - this determines whether file is executable command
+ * is_cmd - this determines whether the file is an executable command
  * @info: info structure
  * @path: the path 2 file
  *
