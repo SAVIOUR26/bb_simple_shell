@@ -1,6 +1,6 @@
 #include "shell.h"
 /**
-* _myenv - this prints current environment
+* _myenv - this prints the current environment
 * @info: this structure contains potential arguments. Used 2 maintain
 * constant func prototype.
 * Return: will always return 0
@@ -11,11 +11,11 @@ print_list_str(info->env);
 return (0);
 }
 /**
-* _getenv - this gets value of the environment variable
+* _getenv - this gets the value of the environment variable
 * @info: the structure contains potential arguments. Used 2 maintain
 * @name: environment var name
 **
-Return: value
+Return: Value
 */
 char *_getenv(info_t *info, const char *name)
 {
@@ -48,7 +48,7 @@ return (0);
 return (1);
 }
 /**
-* _myunsetenv - this remove environ var
+* _myunsetenv - this removes environ var
 * @info: the structure contains potential arguments. Used 2 maintain
 * constant function prototype.
 * Return: will always return 0
@@ -69,7 +69,7 @@ _unsetenv(info, info->argv[i]);
 return (0);
 }
 /**
-* populate_env_list - this populates the enviroment linked list
+* populate_env_list - this populates the environment-linked list
 * @info: the structure contains potential arg; Used 2 maintain
 * constant func prototype.
 * Return: will always return 0
