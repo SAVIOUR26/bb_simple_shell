@@ -16,7 +16,7 @@ return (0);
 * @info: the parameter structure
 * @str: string alias
 **
-Return: on success will always return 0 , else 1 on error
+Return: on success will always return 0, else 1 on error
 */
 int unset_alias(info_t *info, char *str)
 {
@@ -37,7 +37,7 @@ return (ret);
 * @info: the parameter structure 
 * @str: string alias
 **
-Return: on success will always return 0 , else 1 on error
+Return: on success will always return 0, else 1 on error
 */
 int set_alias(info_t *info, char *str)
 {
