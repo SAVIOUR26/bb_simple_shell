@@ -1,9 +1,9 @@
 #include "shell.h"
 /**
 * _eputs - this prints the input string
-* @str:string 2 be printed
+* @str: string 2 be printed
 **
-Return: doen't return anything
+Return: nothing
 */
 void _eputs(char *str)
 {
@@ -40,7 +40,7 @@ return (1);
 /**
 * _putfd - this writes character c 2 given fd
 * @c: character 2 print
-* @fd: The filedescriptor 2 write 
+* @fd: The file descriptor 2 write 
 **
 Return: 1 On success.
 * -1 is returned On error, & errno is set.
@@ -62,7 +62,7 @@ return (1);
 /**
 * _putsfd - this prints the input string
 * @str: string 2 be printed
-* @fd: filedescriptor 2 write 2
+* @fd: file descriptor 2 write 2
 **
 Return: number of characters put
 */
