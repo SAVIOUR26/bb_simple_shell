@@ -1,19 +1,19 @@
 #include "shell.h"
 /**
 * interactive - this returns true if the shell is in interactive mode
-* @info: the struct address
+* @info: structure address
 **
-Return: if interactive mode 1, else 0
+Return: 1 if in the interactive mode, else 0
 */
 int interactive(info_t *info)
 {
 return (isatty(STDIN_FILENO) && info->readfd <= 2);
 }
 /**
-* is_delim - this checks whether a character is a delimiter
-* @c: char 2 check
-* @delim: this is the delimiter string
-* Return: if true 1, else 0 
+* is_delim - this checks if the character is a delimiter
+* @c: char to check
+* @delim: the delimiter string
+* Return: 1 if true, 0 if false
 */
 int is_delim(char c, char *delim)
 {
@@ -23,9 +23,9 @@ return (1);
 return (0);
 }
 /**
-* _isalpha - this checks 4 alphabetic char
-* @c: char 2 input
-* Return: if char is alphabetic 1, else 0 
+* _isalpha - checks for alphabetic character
+* @c: The character to input
+* Return: 1 if c is alphabetic, 0 otherwise
 */
 int _isalpha(int c)
 {
@@ -35,9 +35,9 @@ else
 return (0);
 }
 /**
-* _atoi - this converts the string 2 integer
-* @s: string 2 be converted
-* Return: if no numbers in string 0, else converted number 
+* _atoi - this converts the string to an integer
+* @s: string to be converted
+* Return: 0 if no numbers in the string, converted number otherwise
 */
 int _atoi(char *s)
 {
@@ -62,4 +62,3 @@ else
 output = result;
 return (output);
 }
-
